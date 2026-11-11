@@ -14,7 +14,6 @@ class tbl_user(models.Model):
     user_status=models.IntegerField(default=0)
 
 
-
 class tbl_company(models.Model):
     company_name=models.CharField(max_length=50)
     company_email=models.CharField(max_length=50)
